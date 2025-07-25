@@ -1,4 +1,3 @@
-====================================
 MANUAL DE USUARIO - PERSON AUTOMATOR
 ====================================
 
@@ -49,4 +48,8 @@ PERSON Automator es una aplicación diseñada para facilitar el envío de mensaj
 9. SOPORTE
 ----------
 - Si encuentras errores, revisa los archivos `automator.log` o `scheduler.log`.
+===============
+para convertir en exe :
+pyinstaller --noconfirm --onefile --windowed --add-data "PERSON_settings.json:." --add-data "send_history.json:." --add-data "schedule.json:." automator.py
+
 
